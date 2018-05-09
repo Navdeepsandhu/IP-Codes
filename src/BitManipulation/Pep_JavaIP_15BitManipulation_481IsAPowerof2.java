@@ -9,9 +9,9 @@ public class Pep_JavaIP_15BitManipulation_481IsAPowerof2 {
 		int num=scn.nextInt();
 		int count=countsetbits(num);
 		if(count!=1) {
-			System.out.println("Yes");
-		}else {
 			System.out.println("No");
+		}else {
+			System.out.println("Yes");
 		}
 	}
 	
