@@ -14,7 +14,7 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class Pep_JavaIP_34GenerateAllPossibleSortedArrays {
+public class Pep_JavaIP_1Arrays_34GenerateAllPossibleSortedArrays {
 
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);

@@ -1,4 +1,5 @@
-/*1. You are given a string of D's and I's, where D represent decreasing and I represent increasing. 
+/*1. You are given a string of D's and I's, where D represent decreasing and I represent increasing.
+ 
  2. You have to print minimum number possible following this sequence. The number can contain digits from 1 to 9 only.
  3. The digits cannnot be repeated in the number.
  Test Cases: 1. IIDDD
@@ -22,7 +23,7 @@ package Arrays;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Pep_JavaIP_32MinimumNumberDISequence {
+public class Pep_JavaIP_1Arrays_32MinimumNumberDISequence {
 
 	public static void main(String[] args) {
 		Scanner scn=new Scanner(System.in);

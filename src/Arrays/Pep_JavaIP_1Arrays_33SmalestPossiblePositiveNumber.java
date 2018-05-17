@@ -32,7 +32,7 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class Pep_JavaIP_33SmalestPossiblePositiveNumber {
+public class Pep_JavaIP_1Arrays_33SmalestPossiblePositiveNumber {
 
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);

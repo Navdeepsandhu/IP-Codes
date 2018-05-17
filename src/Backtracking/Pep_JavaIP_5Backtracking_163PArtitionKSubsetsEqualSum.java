@@ -50,5 +50,7 @@ public class Pep_JavaIP_5Backtracking_163PArtitionKSubsetsEqualSum {
 			subset[i] = subset[i].substring(0, subset[i].length() - str.length());
 		}
 	}
+	
+	public static void solvePair(int[] arr, int vidx, String set1, String set2, )
 
 }

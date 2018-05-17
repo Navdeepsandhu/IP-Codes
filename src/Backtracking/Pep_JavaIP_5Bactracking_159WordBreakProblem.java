@@ -9,8 +9,7 @@ public class Pep_JavaIP_5Bactracking_159WordBreakProblem {
 	public static void main(String[] args) {
 
 		Scanner scn = new Scanner(System.in);
-		int t = scn.nextInt();
-		while (t > 0) {
+		
 			int sizeofdictionaryarray = scn.nextInt();
 			String[] Dictionary = new String[sizeofdictionaryarray];
 			for (int i = 0; i < Dictionary.length; i++) {
@@ -24,11 +23,14 @@ public class Pep_JavaIP_5Bactracking_159WordBreakProblem {
 				System.out.println("Empty");
 			}
 			
-			t--;
-		}
+		
+		
 	}
 
 	/*
+	 * 5
+lr m lrm hcdar wk 
+hcdarlrm
 	 * static String[] Dictionary= {"mobile","samsung","sam","sung", "man","mango",
 	 * "icecream","and", "go","i","love","ice","cream"}; Size of this dictionary is
 	 * : 12 Words: mobile samsung sam sung man mango icecream and go i love ice cream
