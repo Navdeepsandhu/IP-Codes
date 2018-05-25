@@ -30,7 +30,7 @@ public class Pep_JavaIP_2SnS_51Ceiling {
 		}
 		int mid = (lo + hi) / 2;
 		if (arr[mid] == ceiling_number) {
-			return arr[mid];
+			return mid;
 		} else if (arr[mid] > ceiling_number) {
 			if (mid - 1 >= lo && arr[mid - 1] < ceiling_number) {
 				return mid;
