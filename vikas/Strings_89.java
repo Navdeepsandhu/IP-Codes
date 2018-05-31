@@ -9,8 +9,8 @@ public class Strings_89 {
 		int k = scn.nextInt();
 
 		char[] res = (palindrome_kdigits(str, k));
-		for( int i=0;i<str.length();i++) {
-		System.out.print(res[i]);
+		for (int i = 0; i < str.length(); i++) {
+			System.out.print(res[i]);
 		}
 	}
 

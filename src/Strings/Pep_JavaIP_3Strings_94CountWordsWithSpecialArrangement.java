@@ -1,6 +1,7 @@
+package Strings;
 import java.util.Scanner;
 
-public class Strings_94_ {
+public class Pep_JavaIP_3Strings_94CountWordsWithSpecialArrangement {
 
 	static int Cwords(String str, int len) {
 		int count = 1;
@@ -14,7 +15,6 @@ public class Strings_94_ {
 		if (str.charAt(0) == str.charAt(1))
 			count *= 1;
 		else
-
 			count *= 2;
 		// there are three cases,
 		// suppose the input string is "abc"
@@ -28,7 +28,7 @@ public class Strings_94_ {
 			else if (str.charAt(j) == str.charAt(j - 1) || str.charAt(j) == str.charAt(j + 1)
 					|| str.charAt(j - 1) == str.charAt(j + 1))
 				count *= 2;
-			// oif all are distinct.
+			// if all are distinct.
 			else
 				count *= 3;
 		}
@@ -48,3 +48,22 @@ public class Strings_94_ {
 		System.out.println(Cwords(str, len));
 	}
 }
+
+/*Test Cases:
+ 
+ab
+---------------
+4
+
+abcdef
+------------------
+324
+
+
+ggsipupepcoding
+--------------------
+944784
+
+Source: https://www.geeksforgeeks.org/count-words-whose-th-letter-either-1-th-th-i1-th-letter-given-word/
+
+*/

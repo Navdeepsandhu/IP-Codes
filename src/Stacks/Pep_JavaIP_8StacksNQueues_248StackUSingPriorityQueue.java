@@ -85,3 +85,60 @@ public class Pep_JavaIP_8StacksNQueues_248StackUSingPriorityQueue {
 	}
 
 }
+
+/*Test Cases: 
+1 2
+1 4
+1 6
+1 8
+2
+2
+3
+6
+---------------
+8
+6
+4 2 
+
+
+1 2
+1 4
+1 6
+1 8
+1 10
+2 
+2 
+2 
+3
+6
+------------------
+10
+8
+6
+4 2 
+
+
+1 2
+1 4
+1 6
+1 8
+1 6
+1 8
+1 10
+1 12
+1 14
+1 16
+2
+2
+3
+4
+--------------------
+16
+14
+12 10 8 6 8 6 4 2
+
+
+Source: https://www.geeksforgeeks.org/implement-stack-using-priority-queue-or-heap/
+
+*/
+
